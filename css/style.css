@@ -3,9 +3,11 @@
   }
 
 .banner {
+  display: block;
   width: 100%;
-  height: 100%;
-  position: absolute;
+  height: 800px;
+  /*margin-top: 50px;*/
+  /*position: absolute;*/
   min-height: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -14,22 +16,33 @@
   background-position: center;
   }
 
-#banner {
+
+#banner-01 {
   background-image: url("../content/roostmade_background.jpg");
+  }
+#banner-02 {
+  background-image: url("../content/before-after.png");
   }
 body {
   background-color: black;
   }
-.banner-01 {
-  height: 1500px;
-  
-  }
+
+
 h1 {
-  margin-top: 800px;
+  /*margin-top: 800px;*/
   text-align: center;
   /*font-family: 'Open+Sans', sans-serif;*/
   font-family: "woodcraftersans";
   color: white;
   font-weight: 500;
   font-size: 20pt;
+  }
+.line-1px-white-90pct-20px-margin-top-bottom {
+  border-top: 1px solid white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  clear:both;
   }
